@@ -1,0 +1,20 @@
+# All version numbers live here. If Gradle says one doesn't exist, this is the
+# only file you need to edit (see README "Troubleshooting").
+
+[versions]
+minecraft = "1.21.11"
+yarn-mappings = "1.21.11+build.3"
+fabric-loader = "0.18.1"
+meteor = "1.21.11-SNAPSHOT"
+loom = "1.14-SNAPSHOT"
+jdk = "21"
+mod-version = "1.0.0"
+
+[libraries]
+minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
+yarn-mappings = { module = "net.fabricmc:yarn", version.ref = "yarn-mappings" }
+fabric-loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric-loader" }
+meteor-client = { module = "meteordevelopment:meteor-client", version.ref = "meteor" }
+
+[plugins]
+fabric-loom = { id = "fabric-loom", version.ref = "loom" }

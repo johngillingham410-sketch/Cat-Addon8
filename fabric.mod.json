@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "floppa_walker",
+  "version": "${version}",
+  "name": "Floppa Walker",
+  "description": "A Meteor Client addon. Toggle the module and a Floppa cube waddles around your screen, meowing at random.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/floppa_walker/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.example.floppawalker.FloppaAddon"
+    ]
+  },
+  "custom": {
+    "meteor-client:color": "224,160,80"
+  },
+  "depends": {
+    "java": ">=${jdk_version}",
+    "minecraft": "${minecraft_version}",
+    "meteor-client": "*"
+  }
+}
